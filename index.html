@@ -1,0 +1,427 @@
+!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Red Hot Chili Peppers - Site Informativo</title>
+    <link rel="stylesheet" href="/style.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <div class="logo-icon"><img src="imagem/logo.jpg" alt="Logo da banda"></div>
+                <span class="logo-text">RHCP</span>
+            </div>
+            <div class="nav-menu">
+                <a href="#home" class="nav-link active" data-section="home">
+                    <span class="nav-icon"></span>
+                    <span>Início</span>
+                </a>
+                <a href="#biography" class="nav-link" data-section="biography">
+                    <span class="nav-icon"></span>
+                    <span>História</span>
+                </a>
+                <a href="#members" class="nav-link" data-section="members">
+                    <span class="nav-icon">👥</span>
+                    <span>Membros</span>
+                </a>
+                <a href="#discography" class="nav-link" data-section="discography">
+                    <span class="nav-icon">💿</span>
+                    <span>Discografia</span>
+                </a>
+                <a href="#curiosities" class="nav-link" data-section="curiosities">
+                    <span class="nav-icon">✨</span>
+                    <span>Curiosidades</span>
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <img src="imagem/fundo.jpg" alt="Red Hot Chili Peppers Concert">
+            <div class="hero-overlay"></div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title animate-fade-in">Red Hot Chili Peppers</h1>
+            <p class="hero-subtitle animate-fade-in-delay-1">Funk Rock • Alternative Rock • Rap Rock</p>
+            <p class="hero-description animate-fade-in-delay-2">
+                Uma das bandas mais influentes e bem-sucedidas da história do rock alternativo, 
+                combinando funk, punk rock e rock psicodélico desde 1983.
+            </p>
+            <button class="hero-button animate-fade-in-delay-3">
+                <span class="button-icon">▶</span>
+                Explorar a Banda
+            </button>
+            <div class="scroll-indicator">
+                <span class="scroll-text">Role para baixo</span>
+                <div class="scroll-mouse">
+                    <div class="scroll-wheel"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Biography Section -->
+    <section id="biography" class="biography">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">História da Banda</h2>
+                <p class="section-subtitle">Mais de 40 anos de música revolucionária</p>
+            </div>
+
+            <div class="biography-grid">
+                <div class="biography-text">
+                    <h3 class="bio-heading">Os Primeiros Anos</h3>
+                    <p class="bio-paragraph">
+                        A banda foi formada em Los Angeles em 1983, criando uma fusão única de funk, punk rock 
+                        e rock psicodélico que definiria seu som característico. O grupo passou por várias 
+                        mudanças de formação nos primeiros anos, enfrentando tragédias pessoais e desafios.
+                    </p>
+                    <p class="bio-paragraph">
+                        Com o lançamento de "Mother's Milk" em 1989 e posteriormente "Blood Sugar Sex Magik" em 1991, 
+                        a banda alcançou sucesso mainstream, tornando-se uma das bandas mais influentes dos anos 90.
+                    </p>
+                </div>
+
+                <div class="biography-text">
+                    <h3 class="bio-heading">Legado e Conquistas</h3>
+                    <p class="bio-paragraph">
+                        Os Red Hot Chili Peppers venderam mais de 100 milhões de álbuns em todo o mundo, 
+                        tornando-se uma das bandas mais bem-sucedidas de todos os tempos. Ganharam múltiplos 
+                        Grammy Awards e outros prêmios prestigiosos.
+                    </p>
+                    <p class="bio-paragraph">
+                        Em 2012, foram introduzidos no Rock and Roll Hall of Fame, consolidando seu status 
+                        como lendas do rock. A banda continua ativa, lançando novos álbuns e fazendo turnês 
+                        mundiais que atraem milhões de fãs.
+                    </p>
+                </div>
+            </div>
+
+            <div class="milestones-grid">
+                <div class="milestone-card">
+                    <div class="milestone-icon">📅</div>
+                    <div class="milestone-year">1983</div>
+                    <h4 class="milestone-title">Formação da Banda</h4>
+                    <p class="milestone-description">Fundada em Los Angeles por Anthony Kiedis, Flea, Hillel Slovak e Jack Irons.</p>
+                </div>
+                <div class="milestone-card">
+                    <div class="milestone-icon">📈</div>
+                    <div class="milestone-year">1991</div>
+                    <h4 class="milestone-title">Blood Sugar Sex Magik</h4>
+                    <p class="milestone-description">Álbum revolucionário que levou a banda ao estrelato mundial.</p>
+                </div>
+                <div class="milestone-card">
+                    <div class="milestone-icon">🏆</div>
+                    <div class="milestone-year">1999</div>
+                    <h4 class="milestone-title">Californication</h4>
+                    <p class="milestone-description">Retorno triunfal de John Frusciante e sucesso comercial massivo.</p>
+                </div>
+                <div class="milestone-card">
+                    <div class="milestone-icon">🎵</div>
+                    <div class="milestone-year">2012</div>
+                    <h4 class="milestone-title">Rock and Roll Hall of Fame</h4>
+                    <p class="milestone-description">Indução ao Hall da Fama do Rock and Roll.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Members Section -->
+    <section id="members" class="members">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Membros da Banda</h2>
+                <p class="section-subtitle">Conheça os músicos que criaram o som lendário</p>
+            </div>
+
+            <div class="members-grid">
+                <div class="members-buttons">
+                    <button class="member-button active" data-member="0">
+                        <div class="member-button-icon" style="background: linear-gradient(to bottom right, #ef4444, #f97316)"><img src="imagem/anthony.jpg" alt="foto anthony kiedis"></div>
+                        <h3 class="member-button-name">Anthony Kiedis</h3>
+                        <p class="member-button-role">Vocalista</p>
+                    </button>
+                    <button class="member-button" data-member="1">
+                        <div class="member-button-icon" style="background: linear-gradient(to bottom right, #f97316, #eab308)"><img src="imagem/flea.jpg" alt="imagem flea"></div>
+                        <h3 class="member-button-name">Flea</h3>
+                        <p class="member-button-role">Baixista</p>
+                    </button>
+                    <button class="member-button" data-member="2">
+                        <div class="member-button-icon" style="background: linear-gradient(to bottom right, #a855f7, #ec4899)"><img src="imagem/jhon.jpg" alt="imagem jhon"></div>
+                        <h3 class="member-button-name">John Frusciante</h3>
+                        <p class="member-button-role">Guitarrista</p>
+                    </button>
+                    <button class="member-button" data-member="3">
+                        <div class="member-button-icon" style="background: linear-gradient(to bottom right, #3b82f6, #06b6d4)"><img src="imagem/chad.jpg" alt="imagem chad"></div>
+                        <h3 class="member-button-name">Chad Smith</h3>
+                        <p class="member-button-role">Baterista</p>
+                    </button>
+                </div>
+
+                <div class="member-detail">
+                    <div class="member-detail-icon" id="member-icon" style="background: linear-gradient(to bottom right, #ef4444, #f97316)"><img src="imagem/anthony.jpg" alt="foto anthony kiedis"></div>
+                    <h3 class="member-detail-name" id="member-name">Anthony Kiedis</h3>
+                    <p class="member-detail-role" id="member-role">Vocalista</p>
+                    <div class="member-detail-years" id="member-years">1983 - Presente</div>
+                    <p class="member-detail-bio" id="member-bio">Cofundador e vocalista da banda desde 1983. Conhecido por seu estilo único de rap-rock e letras autobiográficas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="discography" class="discography">
+        <div class="discography-background">
+            <img src="imagem/fundo2.jpg" alt="RCHP">
+        </div>
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Discografia</h2>
+                <p class="section-subtitle">Álbuns icônicos que definiram gerações</p>
+            </div>
+
+            <div class="albums-grid">
+                <div class="album-card">
+                    <div class="album-header">
+                        <div class="album-icon"><img src="imagem/Blood Sugar Sex Magik.jpg" alt="capa album Blood Sugar Sex Magik"></div>
+                        <div class="album-year">1991</div>
+                    </div>
+                    <h3 class="album-title">Blood Sugar Sex Magik</h3>
+                    <p class="album-description">Álbum revolucionário com hits como "Under the Bridge" e "Give It Away".</p>
+                    <div class="album-footer">
+                        <div class="album-rating">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                        </div>
+                        <div class="album-sales">13 milhões vendidos</div>
+                    </div>
+                </div>
+
+                <div class="album-card">
+                    <div class="album-header">
+                        <div class="album-icon"><img src="imagem/californication.jpg" alt="capa album californication"></div>
+                        <div class="album-year">1999</div>
+                    </div>
+                    <h3 class="album-title">Californication</h3>
+                    <p class="album-description">Retorno triunfal de Frusciante. Inclui "Scar Tissue" e "Californication".</p>
+                    <div class="album-footer">
+                        <div class="album-rating">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                        </div>
+                        <div class="album-sales">16 milhões vendidos</div>
+                    </div>
+                </div>
+
+                <div class="album-card">
+                    <div class="album-header">
+                        <div class="album-icon"><img src="imagem/by the way.jpg" alt="capa album by the way"></div>
+                        <div class="album-year">2002</div>
+                    </div>
+                    <h3 class="album-title">By the Way</h3>
+                    <p class="album-description">Som mais melódico e produção refinada. Aclamado pela crítica.</p>
+                    <div class="album-footer">
+                        <div class="album-rating">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                        </div>
+                        <div class="album-sales">10 milhões vendidos</div>
+                    </div>
+                </div>
+
+                <div class="album-card">
+                    <div class="album-header">
+                        <div class="album-icon"><img src="imagem/stadium ascadium.jpg" alt="capa album stadium arcadium"></div>
+                        <div class="album-year">2006</div>
+                    </div>
+                    <h3 class="album-title">Stadium Arcadium</h3>
+                    <p class="album-description">Álbum duplo épico que ganhou 5 Grammy Awards.</p>
+                    <div class="album-footer">
+                        <div class="album-rating">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                        </div>
+                        <div class="album-sales">12 milhões vendidos</div>
+                    </div>
+                </div>
+
+                <div class="album-card">
+                    <div class="album-header">
+                        <div class="album-icon"><img src="imagem/the gateway.jpg" alt="capa album the gateway"></div>
+                        <div class="album-year">2016</div>
+                    </div>
+                    <h3 class="album-title">The Getaway</h3>
+                    <p class="album-description">Primeiro álbum com Josh Klinghoffer. Experimentação e maturidade.</p>
+                    <div class="album-footer">
+                        <div class="album-rating">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <div class="album-sales">1.5 milhões vendidos</div>
+                    </div>
+                </div>
+
+                <div class="album-card">
+                    <div class="album-header">
+                        <div class="album-icon"><img src="imagem/Unlimited Love.jpg" alt="capa album Unlimited Love"></div>
+                        <div class="album-year">2022</div>
+                    </div>
+                    <h3 class="album-title">Unlimited Love</h3>
+                    <p class="album-description">Retorno de Frusciante. Recebido com entusiasmo pelos fãs.</p>
+                    <div class="album-footer">
+                        <div class="album-rating">
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star filled">★</span>
+                            <span class="star">★</span>
+                        </div>
+                        <div class="album-sales">1 milhão vendidos</div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="stats-banner">
+                <h3 class="stats-title">Mais de 100 milhões de álbuns vendidos</h3>
+                <p class="stats-description">Uma das bandas mais vendidas de todos os tempos, com 6 Grammy Awards e inúmeras certificações Platina</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Curiosities Section -->
+    <section id="curiosities" class="curiosities">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Curiosidades</h2>
+                <p class="section-subtitle">Fatos interessantes sobre a banda</p>
+            </div>
+
+            <div class="curiosities-grid">
+                <div class="curiosity-card" data-expanded="false">
+                    <div class="curiosity-icon" style="background: linear-gradient(to bottom right, #ef4444, #f97316)"><img src="imagem/nome da banda.jpg" alt=""></div>
+                    <h3 class="curiosity-title">Nome da Banda</h3>
+                    <p class="curiosity-preview">A origem do nome tem uma história curiosa...</p>
+                    <p class="curiosity-full">O nome "Red Hot Chili Peppers" foi inspirado em uma banda de jazz-fusion chamada "Red Hot Chili Peppers" (sem relação). Anthony Kiedis achou que o nome evocava a energia e o calor que a banda queria transmitir.</p>
+                    <button class="curiosity-toggle">Ler mais →</button>
+                </div>
+
+                <div class="curiosity-card" data-expanded="false">
+                    <div class="curiosity-icon" style="background: linear-gradient(to bottom right, #a855f7, #ec4899)">🏆</div>
+                    <h3 class="curiosity-title">Apresentações Memoráveis</h3>
+                    <p class="curiosity-preview">A banda tem uma tradição inusitada em shows...</p>
+                    <p class="curiosity-full">Nos primeiros anos, a banda frequentemente se apresentava usando apenas meias no corpo (as famosas "sock performances"). Isso se tornou uma das suas marcas registradas mais controversas e memoráveis.</p>
+                    <button class="curiosity-toggle">Ler mais →</button>
+                </div>
+
+                <div class="curiosity-card" data-expanded="false">
+                    <div class="curiosity-icon" style="background: linear-gradient(to bottom right, #3b82f6, #06b6d4)">⚡</div>
+                    <h3 class="curiosity-title">Turnê Recorde</h3>
+                    <p class="curiosity-preview">Stadium Arcadium quebrou todos os recordes...</p>
+                    <p class="curiosity-full">A turnê do álbum Stadium Arcadium (2006-2007) foi uma das mais longas da história da banda, com mais de 150 shows em 5 continentes. O álbum duplo vendeu mais de 12 milhões de cópias mundialmente.</p>
+                    <button class="curiosity-toggle">Ler mais →</button>
+                </div>
+
+                <div class="curiosity-card" data-expanded="false">
+                    <div class="curiosity-icon" style="background: linear-gradient(to bottom right, #eab308, #f97316)">💡</div>
+                    <h3 class="curiosity-title">Influências Musicais</h3>
+                    <p class="curiosity-preview">Uma mistura única de estilos...</p>
+                    <p class="curiosity-full">A banda combina influências de funk (Parliament-Funkadelic), punk rock (The Clash, Sex Pistols), hip-hop (Grandmaster Flash) e rock psicodélico (Jimi Hendrix), criando um som totalmente único.</p>
+                    <button class="curiosity-toggle">Ler mais →</button>
+                </div>
+
+                <div class="curiosity-card" data-expanded="false">
+                    <div class="curiosity-icon" style="background: linear-gradient(to bottom right, #10b981, #059669)">🎵</div>
+                    <h3 class="curiosity-title">Under the Bridge</h3>
+                    <p class="curiosity-preview">O maior hit quase não foi gravado...</p>
+                    <p class="curiosity-full">A música "Under the Bridge" foi escrita por Anthony Kiedis como um poema pessoal sobre solidão e uso de drogas. Ele inicialmente não queria mostrá-la à banda, mas o produtor Rick Rubin a descobriu em seu caderno.</p>
+                    <button class="curiosity-toggle">Ler mais →</button>
+                </div>
+
+                <div class="curiosity-card" data-expanded="false">
+                    <div class="curiosity-icon" style="background: linear-gradient(to bottom right, #6366f1, #a855f7)">🏆</div>
+                    <h3 class="curiosity-title">Hall da Fama</h3>
+                    <p class="curiosity-preview">Reconhecimento mundial em 2012...</p>
+                    <p class="curiosity-full">Em 2012, os Red Hot Chili Peppers foram introduzidos no Rock and Roll Hall of Fame. A cerimônia contou com apresentações especiais e reuniu múltiplos ex-membros da banda.</p>
+                    <button class="curiosity-toggle">Ler mais →</button>
+                </div>
+            </div>
+
+            <div class="achievements-banner">
+                <h3 class="achievements-title">Mais de 40 anos de Rock!</h3>
+                <p class="achievements-subtitle">A banda continua fazendo história e influenciando novas gerações de músicos</p>
+                <div class="achievements-stats">
+                    <div class="stat-item">
+                        <div class="stat-number">100M+</div>
+                        <div class="stat-label">Álbuns Vendidos</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">6</div>
+                        <div class="stat-label">Grammy Awards</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">13</div>
+                        <div class="stat-label">Álbuns de Estúdio</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-number">40+</div>
+                        <div class="stat-label">Anos de Carreira</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <div class="footer-logo">
+                        <div class="footer-logo-icon"><img src="imagem/nome da banda.jpg" alt="logo"></div>
+                        <div>
+                            <div class="footer-brand-name">Red Hot Chili Peppers</div>
+                            <div class="footer-brand-subtitle">Fan Page Informativa</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer-love">
+                    <span>Feito com</span>
+                    <span class="heart">❤️</span>
+                    <span>para os fãs do RHCP</span>
+                </div>
+
+                <div class="footer-copy">
+                    © 2026 - Maristela Machado - Conteúdo educacional
+                </div>
+            </div>
+
+            <div class="footer-disclaimer">
+                Este é um site informativo criado por uma fãs. Não é afiliado oficialmente à banda Red Hot Chili Peppers.
+                Todas as informações são de domínio público e para fins educacionais.
+            </div>
+        </div>
+    </footer>
+
+    <script src="/script.js"></script>
+</body>
+</html>
