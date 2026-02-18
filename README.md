@@ -21,7 +21,7 @@ O projeto apresenta álbuns, membros da banda e informações gerais, com foco e
 
 - **HTML5**
 - **CSS3**
-- **JavaScript (Vanilla)**
+- **JavaScript**
 - **Git & GitHub**
 
 ---
