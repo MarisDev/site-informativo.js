@@ -1,5 +1,7 @@
 # Site Informativo — Red Hot Chili Peppers🌶️  
 
+https://marisdev.github.io/site-informativo.js/
+
 Site informativo e interativo sobre a banda **Red Hot Chili Peppers**, desenvolvido como trabalho de programação web para a faculdade.
 
 O projeto apresenta álbuns, membros da banda e informações gerais, com foco em layout moderno, tema escuro e boa experiência tanto no desktop quanto no celular.
